@@ -6,7 +6,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy file WAR vào thư mục webapps của Tomcat
 # Giả sử bạn đã có file tenfile.war trong thư mục hiện tại
-COPY chuong9_1.war /usr/local/tomcat/webapps/ROOT.war
+COPY chuong12.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port 8080
 EXPOSE 8080
